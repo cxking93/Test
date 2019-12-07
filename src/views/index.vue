@@ -17,6 +17,7 @@
     </div>
     <banner/>
     <screen/>
+    <shop></shop>
   </div>
 </template>
 <script>
@@ -31,6 +32,7 @@ export default {
   components: {
     banner:require('./banner.vue').default,
     screen:require('./screen.vue').default,
+    shop:require('./shop.vue').default,
   },
   methods: {
     sou(e) {

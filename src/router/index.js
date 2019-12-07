@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Main from '@/views/index.vue'
+import one from '@/views/banner.vue'
 Vue.use(Router)
 const router = new Router({
     // mode:'history',
@@ -12,7 +14,11 @@ const router = new Router({
                 auth:false,//需要登录
                 keepAlive: false
             },
-            component:resolve=>require(['@/views/index.vue'],resolve)
+            // component:resolve=>require(['@/views/index.vue'],resolve)
+            components:{
+              default:Main,
+              one:one
+            }
         },
     ]
 })
