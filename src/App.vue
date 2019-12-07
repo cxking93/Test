@@ -1,6 +1,8 @@
 <template>
   <div id="app">
+    <headers></headers>
     <router-view></router-view>
+    <footers></footers>
   </div>
 </template>
 
@@ -9,7 +11,8 @@
 export default {
   name: 'app',
   components: {
+    
   }
 }
 </script>
-<style src='@/assets/css/normalize.css'></style>
+
