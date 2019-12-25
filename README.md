@@ -25,3 +25,13 @@ npm run build
 - [x] vuex
 - [x] router
 - [x] normalize.css
+
+## 测试使用
+
+>注意：侵权即刻删
+
+```
+vue3.0使用测试
+```
+
+升级复杂性和重新黏合度。
