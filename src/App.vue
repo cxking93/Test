@@ -15,4 +15,9 @@ export default {
   }
 }
 </script>
+<style>
+#app{
+  min-width: 1200px;
+}
+</style>
 

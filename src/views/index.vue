@@ -53,7 +53,6 @@ export default {
   background-size: 100% 100%;
   background-position: center;
   flex-direction: column;
-  height: 100vh;
   margin: 0px;
   padding: 0px;
   display: flex;

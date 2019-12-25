@@ -52,10 +52,10 @@ export default {
 <style lang="less" scoped>
 .wrapper {
   overflow: hidden;
-  width: 60%;
+  width: 1200px;
   margin: 0 auto;
   height: 0;
-  padding-bottom: 27.25%;
+  padding-bottom: 552px;
   text-align: center;
   .swiper-img {
     width: 80%;
